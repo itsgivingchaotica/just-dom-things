@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Manrope&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Rock+Salt&display=swap');
+
 footer {
     position: absolute;
     left: 0;
     right: 0;
     padding: 2rem;
     background: black;
+    font-family: 'Outfit', sans-serif !important;
     color: white;
     font-weight: 500;
     display: flex;

@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
       angryLink.href = 'buttons.html';
       formLink.href = 'form.html';
       hoverLink.href = 'hovering.html';
+
+      console.log("loaded navbar");
     })
     .catch(function(error) {
       console.log('Error loading navbar component:', error);
