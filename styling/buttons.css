@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Manrope&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Rock+Salt&display=swap');
+
+#container {
+    background-image: url(../images/flag-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#container h1 {
+    color: white;
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 6rem;
+    font-weight: 700;
+    background-position: center;
+    text-shadow: 0 0 50px #000000, 0 0 20px black, 0 0 40px black, 0 0 80px black;
+}
+
+h1 {
+    margin: 30px auto;
+}
+
+.btn-container {
+    display: flex;
+    border: 1px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    align-items: center;
+    box-shadow: 0 2px 20px 2px rgba(255, 67, 115, 0.5);
+    justify-content: center;
+    padding: 50px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter:blur(5px);
+}
+
+.trump-btn,
+.biden-btn {
+    padding: 10px;
+    color: white;
+    margin: 40px;
+    display: table;
+    font-size: 3.0rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    align-items: center;
+    box-shadow: 0 2px 4px 2px rgba(255, 67, 115, 0.5);
+}
+
+.btn-container a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.trump-btn {
+    background-color: maroon;
+}
+
+.biden-btn {
+    background-color: navy;
+}
+
+.trump-btn img,
+.biden-btn img {
+    padding: 3px;
+    margin: 30px;
+    flex-grow: 1;
+    border-radius: 12px;
+    
+}
+
+.trump-btn:hover,
+.biden-btn:hover {
+    color: greenyellow;
+    background-color: green;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .07);
+    transition: all ease 0.35;
+    cursor: pointer;
+    box-shadow: 0 2px 20px 10px rgba(7, 94, 28, 0.5);
+}
+
+.trump-btn:focus,
+.biden-btn:focus {
+    border: maroon;
+}
+
+.dialog-container {
+    margin: 100px;
+    display: flex;
+    justify-self: space-between;
+}
+
+.dialog-container #trump{
+    font-family: 'Rock Salt', cursive;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    font-size: 2rem;
+}
+
+.dialog-container #biden{
+    font-family: 'Caveat', cursive;
+    margin-left: 50px;
+        margin-bottom: 100px;
+        font-size: 2.5rem;
+    }
+
+@media (max-width: 800px) {
+    #container {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .btn-container {
+        padding: 60px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .trump-btn,
+    .biden-btn {
+        margin: 20px;
+    }
+
+    .biden-btn {
+        max-width: 90%;
+    }
+
+    .biden-btn img {
+        max-width: 84%;
+    }
+}
