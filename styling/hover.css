@@ -1,0 +1,31 @@
+#hover-container{
+   background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+}
+
+h1{
+    color: white;
+    margin-top: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hover-zone{
+    border: 40px solid white;
+    border-radius: 90%;
+}
+
+#hover-zone img{
+    box-shadow: 0 2px 18px 2px rgba(255, 67, 115, 0.5);
+}
